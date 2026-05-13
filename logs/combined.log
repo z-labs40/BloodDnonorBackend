@@ -25,3 +25,30 @@
 2026-05-13 12:11:23 [[32minfo[39m]: Routes initialized
 2026-05-13 12:11:23 [[32minfo[39m]: 🚀 BloodConnect API running on http://localhost:8080
 2026-05-13 12:11:23 [[32minfo[39m]: 💚 Health check: http://localhost:8080/api/health
+2026-05-13 12:18:21 [[32minfo[39m]: ✅ Database connection established
+2026-05-13 12:18:21 [[32minfo[39m]: Routes initialized
+2026-05-13 12:18:21 [[32minfo[39m]: 🚀 BloodConnect API running on http://localhost:8080
+2026-05-13 12:18:21 [[32minfo[39m]: 💚 Health check: http://localhost:8080/api/health
+2026-05-13 12:19:11 [[31merror[39m]: [CREATE DONOR ERROR] insert or update on table "bc_donors" violates foreign key constraint "FK_600c38ab2e93a798b0b4cf275b0"
+2026-05-13 12:19:25 [[31merror[39m]: [LOGIN ERROR] Invalid email or password.
+2026-05-13 12:20:06 [[32minfo[39m]: New user registered: farhan@campus.edu
+2026-05-13 12:20:38 [[32minfo[39m]: User logged in: farhan@campus.edu
+2026-05-13 12:21:05 [[32minfo[39m]: Donor profile created for user: 24d9dda5-a256-4b59-8886-ae0f6b6c87c4
+2026-05-13 12:32:07 [[31merror[39m]: [GET DONOR ERROR] Donor not found or not verified.
+2026-05-13 12:32:52 [[31merror[39m]: [GET DONOR ERROR] Donor not found or not verified.
+2026-05-13 12:36:43 [[31merror[39m]: [UPDATE DONOR ERROR] FORBIDDEN
+2026-05-13 12:46:42 [[31merror[39m]: [ADMIN GET DONORS ERROR] invalid input value for enum bc_donors_status_enum: "{"PENDING","VERIFIED","REJECTED"}"
+2026-05-13 12:47:07 [[31merror[39m]: [ADMIN GET DONORS ERROR] invalid input value for enum bc_donors_status_enum: "{"PENDING","VERIFIED","REJECTED"}"
+2026-05-13 12:47:09 [[31merror[39m]: [ADMIN GET DONORS ERROR] invalid input value for enum bc_donors_status_enum: "{"PENDING","VERIFIED","REJECTED"}"
+2026-05-13 12:47:10 [[31merror[39m]: [ADMIN GET DONORS ERROR] invalid input value for enum bc_donors_status_enum: "{"PENDING","VERIFIED","REJECTED"}"
+2026-05-13 12:47:10 [[31merror[39m]: [ADMIN GET DONORS ERROR] invalid input value for enum bc_donors_status_enum: "{"PENDING","VERIFIED","REJECTED"}"
+2026-05-13 12:47:11 [[31merror[39m]: [ADMIN GET DONORS ERROR] invalid input value for enum bc_donors_status_enum: "{"PENDING","VERIFIED","REJECTED"}"
+2026-05-13 12:47:28 [[31merror[39m]: [ADMIN GET DONORS ERROR] invalid input value for enum bc_donors_status_enum: "{"PENDING","VERIFIED","REJECTED"}"
+2026-05-13 12:48:32 [[32minfo[39m]: ✅ Database connection established
+2026-05-13 12:48:32 [[32minfo[39m]: Routes initialized
+2026-05-13 12:48:32 [[32minfo[39m]: 🚀 BloodConnect API running on http://localhost:8080
+2026-05-13 12:48:32 [[32minfo[39m]: 💚 Health check: http://localhost:8080/api/health
+2026-05-13 12:48:44 [[32minfo[39m]: ✅ Database connection established
+2026-05-13 12:48:44 [[32minfo[39m]: Routes initialized
+2026-05-13 12:48:44 [[32minfo[39m]: 🚀 BloodConnect API running on http://localhost:8080
+2026-05-13 12:48:44 [[32minfo[39m]: 💚 Health check: http://localhost:8080/api/health

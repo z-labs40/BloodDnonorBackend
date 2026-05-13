@@ -7,7 +7,7 @@ export class AdminController {
 
   async getAllDonors(req: Request, res: Response) {
     try {
-      const { status } = req.query as { status?: string };
+      const status = req.query.status as string | string[] | undefined;
       const donors = await this.useCases.getAllDonors(status);
       res.json({ data: donors });
     } catch (error: any) {

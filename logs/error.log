@@ -1,3 +1,15 @@
 2026-05-13 11:36:21 [[31merror[39m]: [LOGIN ERROR] Invalid email or password.
 2026-05-13 12:08:18 [[31merror[39m]: [CREATE DONOR ERROR] insert or update on table "bc_donors" violates foreign key constraint "FK_600c38ab2e93a798b0b4cf275b0"
 2026-05-13 12:08:56 [[31merror[39m]: [CREATE DONOR ERROR] insert or update on table "bc_donors" violates foreign key constraint "FK_600c38ab2e93a798b0b4cf275b0"
+2026-05-13 12:19:11 [[31merror[39m]: [CREATE DONOR ERROR] insert or update on table "bc_donors" violates foreign key constraint "FK_600c38ab2e93a798b0b4cf275b0"
+2026-05-13 12:19:25 [[31merror[39m]: [LOGIN ERROR] Invalid email or password.
+2026-05-13 12:32:07 [[31merror[39m]: [GET DONOR ERROR] Donor not found or not verified.
+2026-05-13 12:32:52 [[31merror[39m]: [GET DONOR ERROR] Donor not found or not verified.
+2026-05-13 12:36:43 [[31merror[39m]: [UPDATE DONOR ERROR] FORBIDDEN
+2026-05-13 12:46:42 [[31merror[39m]: [ADMIN GET DONORS ERROR] invalid input value for enum bc_donors_status_enum: "{"PENDING","VERIFIED","REJECTED"}"
+2026-05-13 12:47:07 [[31merror[39m]: [ADMIN GET DONORS ERROR] invalid input value for enum bc_donors_status_enum: "{"PENDING","VERIFIED","REJECTED"}"
+2026-05-13 12:47:09 [[31merror[39m]: [ADMIN GET DONORS ERROR] invalid input value for enum bc_donors_status_enum: "{"PENDING","VERIFIED","REJECTED"}"
+2026-05-13 12:47:10 [[31merror[39m]: [ADMIN GET DONORS ERROR] invalid input value for enum bc_donors_status_enum: "{"PENDING","VERIFIED","REJECTED"}"
+2026-05-13 12:47:10 [[31merror[39m]: [ADMIN GET DONORS ERROR] invalid input value for enum bc_donors_status_enum: "{"PENDING","VERIFIED","REJECTED"}"
+2026-05-13 12:47:11 [[31merror[39m]: [ADMIN GET DONORS ERROR] invalid input value for enum bc_donors_status_enum: "{"PENDING","VERIFIED","REJECTED"}"
+2026-05-13 12:47:28 [[31merror[39m]: [ADMIN GET DONORS ERROR] invalid input value for enum bc_donors_status_enum: "{"PENDING","VERIFIED","REJECTED"}"

@@ -2,6 +2,7 @@ import { AppDataSource } from "../../infrastructure/database";
 import { Donor } from "../../adapters/models/Donor";
 import { User } from "../../adapters/models/User";
 import { EmergencyRequest } from "../../adapters/models/EmergencyRequest";
+import { In } from "typeorm";
 import {
   BloodGroup,
   DonorStatus,
@@ -23,9 +24,23 @@ export class AdminUseCases {
     return result;
   }
 
-  async getAllDonors(status?: string) {
+  async getAllDonors(status?: string | string[]) {
     const where: any = {};
-    if (status) where.status = status as DonorStatus;
+
+    if (status) {
+      // Handle both single value (?status=PENDING) and array (?status=PENDING&status=VERIFIED)
+      const statuses = Array.isArray(status) ? status : [status];
+      const validStatuses = statuses.filter((s) =>
+        Object.values(DonorStatus).includes(s as DonorStatus)
+      ) as DonorStatus[];
+
+      if (validStatuses.length === 1) {
+        where.status = validStatuses[0];
+      } else if (validStatuses.length > 1) {
+        where.status = In(validStatuses);
+      }
+      // if validStatuses is empty, no filter applied → return all
+    }
 
     const donors = await this.donorRepo.find({
       where,

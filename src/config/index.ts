@@ -19,7 +19,8 @@ export const config = {
     expiresIn: clean(process.env.JWT_EXPIRES_IN) || "7d",
   },
   cors: {
-    allowedOrigin: clean(process.env.CORS_ORIGIN) || "",
+    allowedOrigin: clean(process.env.CORS_ORIGIN) || "*",
   },
 };
+
 

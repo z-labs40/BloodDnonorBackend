@@ -15,6 +15,9 @@ export default function initRoutes(app: Express): void {
   const donor = new DonorController();
   const emergency = new EmergencyController();
   const admin = new AdminController();
+  
+  console.log("🛠️ Initializing routes...");
+
 
   // ── Root ──────────────────────────────────────────────────────────────────
   app.get("/", (_req, res) => {

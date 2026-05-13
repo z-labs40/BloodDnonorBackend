@@ -1,0 +1,27 @@
+2026-05-13 10:25:56 [[32minfo[39m]: ✅ Database connection established
+2026-05-13 10:25:56 [[32minfo[39m]: Routes initialized
+2026-05-13 10:25:56 [[32minfo[39m]: 🚀 BloodConnect API running on http://localhost:8080
+2026-05-13 10:25:56 [[32minfo[39m]: 💚 Health check: http://localhost:8080/api/health
+2026-05-13 10:54:45 [[32minfo[39m]: ✅ Database connection established
+2026-05-13 10:54:45 [[32minfo[39m]: Routes initialized
+2026-05-13 10:54:45 [[32minfo[39m]: 🚀 BloodConnect API running on http://localhost:8080
+2026-05-13 10:54:45 [[32minfo[39m]: 💚 Health check: http://localhost:8080/api/health
+2026-05-13 11:02:39 [[32minfo[39m]: ✅ Database connection established
+2026-05-13 11:02:39 [[32minfo[39m]: Routes initialized
+2026-05-13 11:02:39 [[32minfo[39m]: 🚀 BloodConnect API running on http://localhost:8080
+2026-05-13 11:02:39 [[32minfo[39m]: 💚 Health check: http://localhost:8080/api/health
+2026-05-13 11:34:18 [[32minfo[39m]: New user registered: arjun@campus.edu
+2026-05-13 11:35:12 [[32minfo[39m]: User logged in: arjun@campus.edu
+2026-05-13 11:36:21 [[31merror[39m]: [LOGIN ERROR] Invalid email or password.
+2026-05-13 11:41:28 [[32minfo[39m]: ✅ Database connection established
+2026-05-13 11:41:28 [[32minfo[39m]: Routes initialized
+2026-05-13 11:41:28 [[32minfo[39m]: 🚀 BloodConnect API running on http://localhost:8080
+2026-05-13 11:41:28 [[32minfo[39m]: 💚 Health check: http://localhost:8080/api/health
+2026-05-13 11:41:34 [[32minfo[39m]: User logged in: admin@campus.edu
+2026-05-13 11:42:14 [[32minfo[39m]: Admin logged in: admin@campus.edu
+2026-05-13 12:08:18 [[31merror[39m]: [CREATE DONOR ERROR] insert or update on table "bc_donors" violates foreign key constraint "FK_600c38ab2e93a798b0b4cf275b0"
+2026-05-13 12:08:56 [[31merror[39m]: [CREATE DONOR ERROR] insert or update on table "bc_donors" violates foreign key constraint "FK_600c38ab2e93a798b0b4cf275b0"
+2026-05-13 12:11:23 [[32minfo[39m]: ✅ Database connection established
+2026-05-13 12:11:23 [[32minfo[39m]: Routes initialized
+2026-05-13 12:11:23 [[32minfo[39m]: 🚀 BloodConnect API running on http://localhost:8080
+2026-05-13 12:11:23 [[32minfo[39m]: 💚 Health check: http://localhost:8080/api/health

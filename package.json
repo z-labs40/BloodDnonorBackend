@@ -1,0 +1,41 @@
+{
+  "name": "blooddonorbackend",
+  "version": "1.0.0",
+  "description": "BloodConnect — Campus Blood Donor Directory REST API",
+  "main": "dist/frameworks/server.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only -r reflect-metadata src/frameworks/server.ts",
+    "build": "tsc",
+    "start": "node dist/frameworks/server.js",
+    "seed": "ts-node -r reflect-metadata src/seed.ts",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@getbrevo/brevo": "^5.0.4",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.20.0",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.29",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.7.0",
+    "@types/winston": "^2.4.4",
+    "nodemon": "^3.1.14",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^6.0.3"
+  }
+}

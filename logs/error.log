@@ -13,3 +13,6 @@
 2026-05-13 12:47:10 [[31merror[39m]: [ADMIN GET DONORS ERROR] invalid input value for enum bc_donors_status_enum: "{"PENDING","VERIFIED","REJECTED"}"
 2026-05-13 12:47:11 [[31merror[39m]: [ADMIN GET DONORS ERROR] invalid input value for enum bc_donors_status_enum: "{"PENDING","VERIFIED","REJECTED"}"
 2026-05-13 12:47:28 [[31merror[39m]: [ADMIN GET DONORS ERROR] invalid input value for enum bc_donors_status_enum: "{"PENDING","VERIFIED","REJECTED"}"
+2026-05-13 14:12:16 [[31merror[39m]: [CREATE DONOR ERROR] You already have a donor profile.
+2026-05-13 14:12:39 [[31merror[39m]: [CREATE DONOR ERROR] You already have a donor profile.
+2026-05-13 14:16:16 [[31merror[39m]: [UPDATE DONOR ERROR] FORBIDDEN

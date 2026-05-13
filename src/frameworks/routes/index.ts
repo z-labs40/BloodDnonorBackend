@@ -24,8 +24,10 @@ export default function initRoutes(app: Express): void {
     res.json({
       message: "Welcome to BloodConnect API",
       version: "1.0.0",
-      status: "active"
+      status: "active",
+      serverTime: new Date().toISOString()
     });
+
   });
 
   // ── Health ────────────────────────────────────────────────────────────────

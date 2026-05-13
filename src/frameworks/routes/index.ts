@@ -16,10 +16,20 @@ export default function initRoutes(app: Express): void {
   const emergency = new EmergencyController();
   const admin = new AdminController();
 
+  // ── Root ──────────────────────────────────────────────────────────────────
+  app.get("/", (_req, res) => {
+    res.json({
+      message: "Welcome to BloodConnect API",
+      version: "1.0.0",
+      status: "active"
+    });
+  });
+
   // ── Health ────────────────────────────────────────────────────────────────
   app.get("/api/health", (_req, res) => {
     res.json({ status: "ok", timestamp: new Date().toISOString() });
   });
+
 
   // ── Auth ──────────────────────────────────────────────────────────────────
   app.post(

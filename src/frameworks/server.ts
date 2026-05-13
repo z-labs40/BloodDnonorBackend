@@ -52,8 +52,7 @@ const startServer = async () => {
   try {
     const app = await getApp();
     app.listen(PORT, "0.0.0.0", () => {
-      Logger.info(`🚀 BloodConnect API running on http://0.0.0.0:${PORT}`);
-      Logger.info(`💚 Health check: http://0.0.0.0:${PORT}/api/health`);
+      Logger.info(`🚀 BloodConnect API [${config.nodeEnv}] running on port ${PORT}`);
     });
   } catch (error) {
     Logger.error(`❌ Server failed to start: ${error}`);

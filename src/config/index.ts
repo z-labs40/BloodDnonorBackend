@@ -19,8 +19,17 @@ export const config = {
     expiresIn: clean(process.env.JWT_EXPIRES_IN) || "7d",
   },
   cors: {
-    allowedOrigin: clean(process.env.CORS_ORIGIN) || "*",
+    allowedOrigin: (() => {
+      const val = clean(process.env.CORS_ORIGIN);
+      if (!val) return [
+        "http://localhost:3000",
+        "https://blooddonors--erp-b2b69.us-east4.hosted.app"
+      ];
+      return val.includes(",") ? val.split(",").map(s => s.trim()) : val;
+    })(),
   },
 };
+
+
 
 

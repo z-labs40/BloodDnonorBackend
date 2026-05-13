@@ -159,3 +159,26 @@
 2026-05-13 16:07:47 [[32minfo[39m]: ✅ Database connection established
 2026-05-13 16:07:47 [[32minfo[39m]: Routes initialized
 2026-05-13 16:07:47 [[32minfo[39m]: 🚀 BloodConnect API [development] running on port 8080
+2026-05-13 16:09:22 [[32minfo[39m]: ✅ Database connection established
+2026-05-13 16:09:22 [[32minfo[39m]: Routes initialized
+2026-05-13 16:09:22 [[32minfo[39m]: 🚀 BloodConnect API [development] running on port 8080
+2026-05-13 17:38:23 [[32minfo[39m]: New user registered: thansm@gmail.com
+2026-05-13 17:38:48 [[32minfo[39m]: Donor profile created for user: 900e86da-1931-48de-b54a-812ccf1f4809
+2026-05-13 17:39:31 [[32minfo[39m]: Emergency request created by user: 900e86da-1931-48de-b54a-812ccf1f4809
+2026-05-13 17:39:55 [[32minfo[39m]: Admin logged in: admin@campus.edu
+2026-05-13 17:40:08 [[32minfo[39m]: Donor b5b9abc8-1878-41ac-bf24-94134e5312a8 status updated to VERIFIED by admin 8d96dc46-2005-4092-8953-f8a216fe45de
+2026-05-13 17:52:57 [[32minfo[39m]: User logged in: thansm@gmail.com
+2026-05-13 17:53:47 [[31merror[39m]: [ADMIN LOGIN ERROR] Invalid email or password.
+2026-05-13 17:53:53 [[32minfo[39m]: Admin logged in: admin@campus.edu
+2026-05-13 18:08:28 [[32minfo[39m]: ✅ Database connection established
+2026-05-13 18:08:28 [[32minfo[39m]: Routes initialized
+2026-05-13 18:08:28 [[32minfo[39m]: 🚀 BloodConnect API [development] running on port 8080
+2026-05-13 18:08:28 [[32minfo[39m]: ✅ Database connection established
+2026-05-13 18:08:28 [[32minfo[39m]: Routes initialized
+2026-05-13 18:08:28 [[32minfo[39m]: 🚀 BloodConnect API [development] running on port 8080
+2026-05-13 18:08:42 [[32minfo[39m]: ✅ Database connection established
+2026-05-13 18:08:42 [[32minfo[39m]: Routes initialized
+2026-05-13 18:08:42 [[32minfo[39m]: 🚀 BloodConnect API [development] running on port 8080
+2026-05-13 18:08:42 [[32minfo[39m]: ✅ Database connection established
+2026-05-13 18:08:42 [[32minfo[39m]: Routes initialized
+2026-05-13 18:08:42 [[32minfo[39m]: 🚀 BloodConnect API [development] running on port 8080

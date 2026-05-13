@@ -1,17 +1,25 @@
 import dotenv from "dotenv";
 dotenv.config();
 
+// Helper to strip inline comments from environment variables
+const clean = (val: string | undefined): string | undefined => {
+  if (!val) return val;
+  // If there's a #, take everything before it and trim
+  return val.split("#")[0].trim();
+};
+
 export const config = {
-  port: Number(process.env.PORT) || 5000,
-  nodeEnv: process.env.NODE_ENV || "development",
+  port: Number(clean(process.env.PORT)) || 8080,
+  nodeEnv: clean(process.env.NODE_ENV) || "development",
   db: {
-    url: process.env.DATABASE_URL!,
+    url: clean(process.env.DATABASE_URL)!,
   },
   jwt: {
-    secret: process.env.JWT_SECRET!,
-    expiresIn: process.env.JWT_EXPIRES_IN || "7d",
+    secret: clean(process.env.JWT_SECRET)!,
+    expiresIn: clean(process.env.JWT_EXPIRES_IN) || "7d",
   },
   cors: {
-    allowedOrigin: process.env.CORS_ORIGIN || "http://localhost:3000",
+    allowedOrigin: clean(process.env.CORS_ORIGIN) || "http://localhost:3000",
   },
 };
+

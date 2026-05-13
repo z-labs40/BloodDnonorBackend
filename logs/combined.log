@@ -87,3 +87,19 @@
 2026-05-13 15:22:06 [[32minfo[39m]: Routes initialized
 2026-05-13 15:22:06 [[32minfo[39m]: 🚀 BloodConnect API running on http://localhost:8080
 2026-05-13 15:22:06 [[32minfo[39m]: 💚 Health check: http://localhost:8080/api/health
+2026-05-13 15:40:52 [[32minfo[39m]: ✅ Database connection established
+2026-05-13 15:40:52 [[32minfo[39m]: Routes initialized
+2026-05-13 15:40:52 [[32minfo[39m]: 🚀 BloodConnect API running on http://0.0.0.0:8080
+2026-05-13 15:40:52 [[32minfo[39m]: 💚 Health check: http://0.0.0.0:8080/api/health
+2026-05-13 15:40:52 [[32minfo[39m]: ✅ Database connection established
+2026-05-13 15:40:52 [[32minfo[39m]: Routes initialized
+2026-05-13 15:40:52 [[32minfo[39m]: 🚀 BloodConnect API running on http://0.0.0.0:8080
+2026-05-13 15:40:52 [[32minfo[39m]: 💚 Health check: http://0.0.0.0:8080/api/health
+2026-05-13 15:41:01 [[32minfo[39m]: ✅ Database connection established
+2026-05-13 15:41:01 [[32minfo[39m]: Routes initialized
+2026-05-13 15:41:01 [[32minfo[39m]: 🚀 BloodConnect API running on http://0.0.0.0:8080
+2026-05-13 15:41:01 [[32minfo[39m]: 💚 Health check: http://0.0.0.0:8080/api/health
+2026-05-13 15:41:01 [[32minfo[39m]: ✅ Database connection established
+2026-05-13 15:41:01 [[32minfo[39m]: Routes initialized
+2026-05-13 15:41:01 [[32minfo[39m]: 🚀 BloodConnect API running on http://0.0.0.0:8080
+2026-05-13 15:41:01 [[32minfo[39m]: 💚 Health check: http://0.0.0.0:8080/api/health
